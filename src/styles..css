@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  background: #090b22;
+  color: #eafffd;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at top left, #15172c 70%, #0e101c 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #22eafd;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #181a3fdc 60%, #2c425e 100%);
+  box-shadow: 0 4px 60px 0 #1debcf22;
+  border-radius: 32px;
+}
+
+.neon-text {
+  font-size: 2.7rem;
+  color: #36ffc0;
+  text-shadow:
+    0 0 8px #36ffc0,
+    0 0 24px #06bba5,
+    0 0 60px #10e7de;
+  animation: neonpulse 1.6s infinite alternate;
+}
+
+@keyframes neonpulse {
+  0% { text-shadow: 0 0 7px #36ffc0, 0 0 18px #06bba5;}
+  100% { text-shadow: 0 0 24px #68ffe3, 0 0 64px #0ff;}
+}
+
+.neon-subtext {
+  margin-top: 18px;
+  font-size: 1.2rem;
+  color: #83ffe6;
+  text-shadow: 0 0 7px #65ffe5, 0 0 13px #65ffe5;
+  padding-bottom: 20px;
+  max-width: 600px;
+}
+
+.main-buttons {
+  margin: 30px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  justify-content: center;
+}
+.neon-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 32px;
+  border-radius: 16px;
+  background: linear-gradient(90deg,#22eafd,#b5ffd2 60%);
+  color: #07090d;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 0 28px 0 #1debcf66;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s, color 0.2s;
+}
+.neon-btn:hover {
+  background: linear-gradient(90deg, #1cfff2, #70ffcd 90%);
+  transform: scale(1.06) rotate(-2deg);
+  color: #15192e;
+  box-shadow: 0 0 50px 6px #1dccfb55;
+}

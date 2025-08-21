@@ -1,0 +1,64 @@
+{
+  "movies": {
+    "pure_masterpiece": [
+      {
+        "name": "The Shawshank Redemption",
+        "img": "https://m.media-amazon.com/images/I/51NiGlapXlL._AC_.jpg",
+        "download": "https://example.com/shawshank-download",
+        "info": "Tim Robbins & Morgan Freeman star in this iconic prison drama. Top IMDB rank."
+      },
+      {
+        "name": "Inception",
+        "img": "https://m.media-amazon.com/images/I/91cxseMSybL._AC_SY679_.jpg",
+        "download": "https://example.com/inception-download",
+        "info": "Christopher Nolan's mind-bending thriller about dreams within dreams."
+      }
+    ],
+    "goat": [
+      {
+        "name": "The Godfather",
+        "img": "https://m.media-amazon.com/images/I/51P6AeyJfLL._AC_.jpg",
+        "download": "https://example.com/godfather-download",
+        "info": "Marlon Brando and Al Pacino's unforgettable mafia saga."
+      }
+    ],
+    "must_watch": [],
+    "underrated": [],
+    "movies_masterpiece": []
+  },
+  "anime": {
+    "pure_masterpiece": [
+      {
+        "name": "Fullmetal Alchemist: Brotherhood",
+        "img": "https://m.media-amazon.com/images/I/71-QeV8Z6YL._AC_SY679_.jpg",
+        "download": "https://example.com/fma-brotherhood",
+        "info": "Legendary anime—brothers chase truth in an alchemy-filled world."
+      }
+    ],
+    "goat": [
+      {
+        "name": "Death Note",
+        "img": "https://m.media-amazon.com/images/I/513Fij8sQFL._AC_SY445_.jpg",
+        "download": "https://example.com/death-note",
+        "info": "A high-schooler finds a notebook with god-like powers. Epic mind games."
+      }
+    ],
+    "must_watch": [],
+    "underrated": [],
+    "movies_masterpiece": []
+  },
+  "webseries": {
+    "pure_masterpiece": [
+      {
+        "name": "Breaking Bad",
+        "img": "https://m.media-amazon.com/images/I/51ibfVBVHaL._AC_.jpg",
+        "download": "https://example.com/breaking-bad",
+        "info": "A chemistry teacher turns into a kingpin. The GOAT of TV."
+      }
+    ],
+    "goat": [],
+    "must_watch": [],
+    "underrated": [],
+    "movies_masterpiece": []
+  }
+}
